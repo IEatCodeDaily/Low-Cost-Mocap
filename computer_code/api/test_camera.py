@@ -1,4 +1,4 @@
 from pseyepy import Camera, Display
 
 c = Camera() # initialize a camera
-d = Display(c) # begin the display
+d = Display(c) # begin the displayc
