@@ -308,7 +308,6 @@ def determine_scale(data):
 
     socketio.emit("camera-pose", {"error": None, "camera_poses": camera_poses})
 
-
 @socketio.on("triangulate-points")
 def live_mocap(data):
     cameras = Cameras.instance()

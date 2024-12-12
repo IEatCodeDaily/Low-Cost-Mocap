@@ -21,7 +21,7 @@ class Cameras:
         f = open(filename)
         self.camera_params = json.load(f)
 
-        self.cameras = Camera(fps=90, resolution=Camera.RES_SMALL, gain=10, exposure=100)
+        self.cameras = Camera(fps=60, resolution=Camera.RES_LARGE, gain=10, exposure=100)
         self.num_cameras = len(self.cameras.exposure)
         print(self.num_cameras)
 
